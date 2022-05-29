@@ -7,7 +7,7 @@ def app():
     st.markdown("""
         <style>
                .css-18e3th9 {
-                    padding-top: 2rem;
+                    padding-top: 0rem;
                     padding-bottom: 0rem;
                     padding-left: 0rem;
                     padding-right: 0rem;
@@ -27,13 +27,13 @@ def app():
 
     if(vis == "Flow of Outbreak"):
         try:
-            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=900)
+            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=850)
 
         except:
              pass
     elif(vis == "Outbreak Severities"):
         try:
-            components.iframe("https://kristineirishhh.github.io/outbreak_severities/", height=900)
+            components.iframe("https://kristineirishhh.github.io/outbreak_severities/", height=850)
         except:
              pass
 
