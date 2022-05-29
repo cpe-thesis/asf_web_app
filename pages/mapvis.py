@@ -7,7 +7,7 @@ def app():
     st.markdown("""
         <style>
                .css-18e3th9 {
-                    padding-top: 0rem;
+                    padding-top: 2rem;
                     padding-bottom: 0rem;
                     padding-left: 0rem;
                     padding-right: 0rem;
