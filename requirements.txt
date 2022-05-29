@@ -1,8 +1,5 @@
---find-links=https://girder.github.io/large_image_wheels GDAL
 streamlit.components.v1
 numpy
-localtileserver
-nbserverproxy
 streamlit
 streamlit-option-menu
 
