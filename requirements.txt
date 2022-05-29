@@ -10,3 +10,4 @@ pandas==1.4.2
 pickleshare==0.7.5
 Pillow==9.1.1
 wcwidth==0.2.5
+scikit-learn==1.1.1
