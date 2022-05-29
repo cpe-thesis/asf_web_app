@@ -27,13 +27,13 @@ def app():
 
     if(vis == "Flow of Outbreak"):
         try:
-            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=1100)
+            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=900)
 
         except:
              pass
     elif(vis == "Outbreak Severities"):
         try:
-            components.iframe("https://kristineirishhh.github.io/outbreak_severities/", height=1100)
+            components.iframe("https://kristineirishhh.github.io/outbreak_severities/", height=900)
         except:
              pass
 
