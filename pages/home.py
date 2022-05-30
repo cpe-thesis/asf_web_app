@@ -23,7 +23,7 @@ def app():
         </style>
         """, unsafe_allow_html=True)
 
-    components.iframe("https://kristineirishhh.github.io/home/", height=800)
-    components.iframe("https://kristineirishhh.github.io/about/", height=1050)
+    components.iframe("https://kristineirishhh.github.io/home/", height=700)
+    components.iframe("https://kristineirishhh.github.io/about/", height=500)
 
     
