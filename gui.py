@@ -14,7 +14,7 @@ primaryColor="#ffb6c1"
 pages = [
     {"func": home.app, "title": "Home", "icon": "house"},
     {"func": predpage.app, "title": "Forecast an Outbreak", "icon": "activity"},
-    {"func": mapvis.app, "title": "Map Visualisation", "icon": "map"},
+    {"func": mapvis.app, "title": "Map Visualization", "icon": "map"},
     {"func": report.app, "title": "Correlation Analysis Report", "icon": "file-earmark-text"},
 ]
 
