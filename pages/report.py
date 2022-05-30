@@ -24,5 +24,5 @@ def app():
         </style>
         """, unsafe_allow_html=True)
         
-    components.iframe("https://kristineirishhh.github.io/analysis_report/", width=720, height=1100)
+    components.iframe("https://kristineirishhh.github.io/analysis_report/", height=1100)
 
