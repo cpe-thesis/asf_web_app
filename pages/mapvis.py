@@ -27,7 +27,7 @@ def app():
 
     if(vis == "Flow of Outbreak"):
         try:
-            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=775)
+            components.iframe("https://kristineirishhh.github.io/map_visualisation/", height=700)
 
         except:
              pass
