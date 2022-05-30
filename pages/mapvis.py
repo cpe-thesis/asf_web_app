@@ -22,7 +22,7 @@ def app():
         """, unsafe_allow_html=True)
     
 
-    vis = st.sidebar.selectbox("Map Visualisation",
+    vis = st.sidebar.selectbox("Map Visualization",
 		["Flow of Outbreak", "Outbreak Severities"])
 
     if(vis == "Flow of Outbreak"):
