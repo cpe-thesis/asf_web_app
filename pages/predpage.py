@@ -23,7 +23,7 @@ def predict_cases(province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wi
 def app():
 
         st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
-        st.text('Input the weather data, then click submit to forecast the probability of the ASF outbreak.')
+        st.text('Input the weather and ASF data, then click submit to forecast the probability of the ASF outbreak.')
         
         forecast = st.sidebar.selectbox("Forecast an Outbreak",
 		["Annually", "Per Semester"])
