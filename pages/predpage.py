@@ -14,7 +14,7 @@ def predict_cases(rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,win
 
 model2=pickle.load(open('RandomForestModel (per semester).pkl','rb'))
 
-def predict_cases(province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,wind_direction,susceptible):
+def predictcases(province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,wind_direction,susceptible):
     input=np.array([[province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,wind_direction,susceptible]]).astype(np.float64)
     pred=model2.predict(input)
     
@@ -68,7 +68,7 @@ def app():
                         susceptible = st.text_input('Susceptible:')
                 
                         if st.button("Submit"):
-                                output2=predict_cases(province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,wind_direction,susceptible)
+                                output2=predictcases(province_id,rainfall,tmax,tmin,tmean,rh,sh,surface_pressure,wind_speed,wind_direction,susceptible)
                                 cases2 = int(output2)
                                 st.success('The number of possible cases: {}'.format(cases2))
                 except:
