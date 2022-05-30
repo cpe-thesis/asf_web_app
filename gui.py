@@ -5,6 +5,9 @@ from pages import home, mapvis, predpage, report  # import your app modules here
 
 
 st.set_page_config(page_title="African Swine Fever Forecast", layout="wide")
+[theme]
+base="light"
+primaryColor="#ffb6c1"
 
 
 
