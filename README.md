@@ -9,7 +9,7 @@ A system made for the thesis titled DATA CORRELATION ANALYSIS OF AFRICAN SWINE F
 
 ## Access
 
-https://share.streamlit.io/cpethesis/asf_web_app/main/gui.py
+https://share.streamlit.io/cpe-thesis/asf_web_app/main/gui.py
 
 ### GitHub Repository
 
